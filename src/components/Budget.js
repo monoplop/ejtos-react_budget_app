@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { AppContext } from '../context/AppContext';
 
+
 const BUDGET_MAX_VALUE = 20000;
 
 const Budget = () => {
@@ -53,7 +54,7 @@ const Budget = () => {
                     required='required'
                     type='number'
                     min='0'
-                    max='20000'
+                    max='20010'
                     id='budget'
                     step='10'
                     defaultValue={budget}
